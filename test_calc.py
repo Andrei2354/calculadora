@@ -21,7 +21,7 @@ def test_division(calculadora):
 
 def test_division_por_cero():
     calculadora = Calculadora(10, 0)
-    assert calculadora.division() == "Error: No se puede dividir por cero."
+    assert calculadora.division() == "Error: No se puede dividir por cero. "
 
 def test_suma_negativa():
     calculadora = Calculadora(-5, 10)
