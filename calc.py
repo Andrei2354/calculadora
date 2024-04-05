@@ -14,6 +14,6 @@ class Calculadora:
     
     def division(self):
         if self.numero2 == 0:
-            return "Error: No se puede dividir por cero."
+            return "Error: No se puede dividir por cero. "
         else:
             return self.numero1 / self.numero2
